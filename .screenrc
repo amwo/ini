@@ -1,0 +1,25 @@
+defutf8 on
+defencoding utf8
+encoding utf8 utf8
+
+escape \233\233
+
+defbce on
+
+vbell off
+autodetach on
+startup_message off
+deflogin off
+autonuke on
+defscrollback 0
+
+# set $TERM env
+term xterm-256color
+termcapinfo xterm* ti@:te@
+
+escape ^Z^Z
+
+defscrollback 8192
+
+msgwait 3
+msgminwait 2
